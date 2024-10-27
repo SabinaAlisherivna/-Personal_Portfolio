@@ -83,4 +83,39 @@ header nav ul li a i{
 header nav ul li a:hover i {
  color: var(--themeColor);
 }
+header nav ul li .active i {
+ color: var(--themeColor);
+}
+
+/* Footer */
+header .footer{
+ text-align: center;
+ background-color: var(--sideBGColor);
+ width: 300px;
+ color: lightgray;
+ font-size: 14px;
+ letter-spacing:0.6px;
+ padding: 15px;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ transition: 0.4s;
+}
+header .footer p a{
+ color: var(--themeColor);
+}
+/* Mobile nav toggle */
+#MenuBtn{
+ position: fixed;
+ top: 25px;
+ right: 25px;
+ font-size: 20px;
+ width: 40px;
+ height: 40px;
+ color: white;
+ background-color: var(--themeColor);
+
+}
+ 
+
 /* ===Header end ===  */
