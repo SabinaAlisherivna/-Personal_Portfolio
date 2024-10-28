@@ -114,8 +114,37 @@ header .footer p a{
  height: 40px;
  color: white;
  background-color: var(--themeColor);
+ text-align:center;
+ line-height:42px;
+ border-radius: 50%;
+ box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+ display: none;
+ z-index:999;
 
 }
- 
+ /*Mobile view  */
+@media only screen and (max-width:1050px){
+ header{
+  left:-300px;
+ }
+ header .footer{
+  left:-300px;
 
+ }
+ #MenuBtn{
+  display: block;
+ }
+}
+/* Header toggle */
+.mobile-nav-active header{
+ left: 0;
+}
 /* ===Header end ===  */
+
+/*<--------------------------------------> */
+/* === MAIN SECTION === */
+main{
+ margin-left: 300px;
+ background-color:var(--bgColor);
+ transition: 0.3s;
+}
