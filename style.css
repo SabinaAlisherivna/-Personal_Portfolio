@@ -388,5 +388,11 @@ font-size: 16px;
         font-size: 14px;
     }
 }
-
 /* ========Facts Section END========= */
+/* =================================================================== */
+/* ======Skills Section START====== */
+#skill{
+    padding: 70px 30px;
+}
+
+/* ======Skills Section END====== */
