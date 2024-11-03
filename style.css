@@ -366,5 +366,27 @@ font-weight: 500;
 font-size: 16px;
 }
 /* Mobile View */
+@media only screen and(max-width:700px){
+    #fact{
+        padding:40px 15px ;
+    }
+    #fact .fact-row{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+}
+@media only screen and(max-width:370px){
+    #fact .fact-row .fact-box i{
+        font-size: 30px;
+    }
+    #fact .fact-row .fact-box strong{
+        font-size: 20px;
+
+    }
+    #fact .fact-row .fact-box p{
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
 
 /* ========Facts Section END========= */
