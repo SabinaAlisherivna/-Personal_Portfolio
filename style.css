@@ -282,6 +282,7 @@ main{
 #about .about-col .info-col .icon-list-col .icon-list-col ul li{
     list-style: none;
     margin: 15px 0;
+    
 }
 #about .about-col .info-col .icon-list-col .icon-list-col ul li i{
     color: var(--themeColor);
@@ -484,6 +485,76 @@ border-radius: 15px;
     font-size: 15px;
     font-weight: 600;
     font-style: italic;
-    margin: 10px 0;
+    margin: 10px 0 ;
 }
+#resume .resume-row .resume-cols .my-info ul li{
+    margin: 10px 0;
+    margin-left: 20px;
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 500;
+}
+#resume .resume-row .resume-cols .my-edu{
+    padding: 0 20px 0 20px;
+    border-left: 2px solid var(--themeColor);
+    position: relative;
+}
+#resume .resume-row .resume-cols .my-edu::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid var(--themeColor);
+    background-color: white; 
+}
+#resume .resume-row .resume-cols .sp-box{
+    padding: 4px 22px;
+    background-color: lightblue;
+    color: var(--textColor);
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    margin: 15px 0;
+    display: inline-block;
+    }
+    #resume .resume-row .resume-cols .my-edu span +p{
+        color: var(--textColor);
+        font-size: 15px;
+        font-weight: 500;
+        font-style: italic;
+        margin-bottom: 15px;
+    }
+    #resume .resume-row .resume-cols .my-edu + p + p{
+        color: var(--textColor);
+        font-size: 15px;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+    #resume .resume-row .resume-cols .pro-exp{
+        padding: 0 20px 0 20px;
+        border-left: 2px solid var(--themeColor);
+        position: relative;
+    }
+    #resume .resume-row .resume-cols .pro-exp::before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: -10px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 2px solid var(--themeColor);
+        background-color: white; 
+    }
+    #resume .resume-row .resume-cols .pro-exp p{
+        color: var(--textColor);
+        font-size: 17px;
+        font-weight: 500;
+        font-style: italic;
+    }
+
 /* REsume Section END */
